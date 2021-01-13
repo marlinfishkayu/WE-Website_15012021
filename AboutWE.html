@@ -290,18 +290,16 @@
             <div id="AboutWE">
                 <div class="hero-header text-center">
                     <div class="hero-header-bkg">
-                        <img
-                            class="game-hero-M"
-                            src="images/about/hero_about_M_x1.png"
-                            srcset="images/about/hero_about_M_x1.png 500w, images/about/hero_about_M_x2.png 1000w"
-                            alt=""
-                        />
-                        <img
-                            class="game-hero-D"
-                            src="images/about/hero_about_D_x1.png"
-                            srcset="images/about/hero_about_D_x1.png 500w, images/about/hero_about_D_x2.png 1000w"
-                            alt=""
-                        />
+                        <picture class="game-hero-M">
+                            <source media="(max-width: 600px)" srcset="./images/about/hero_about_M_x1.png">
+                            <source media="(max-width: 1023px)" srcset="./images/about/hero_about_M_x1.png 800w, ./images/about/hero_about_M_x2.png 1000w">
+                            <img src="./images/about/hero_about_M_x2.png">
+                        </picture>
+                        <picture class="game-hero-D">
+                            <source media="(max-width: 600px)" srcset="./images/about/hero_about_D_x1.png">
+                            <source media="(max-width: 1023px)" srcset="./images/about/hero_about_D_x1.png 800w, ./images/about/hero_about_D_x2.png 1000w">
+                            <img src="./images/about/hero_about_D_x2.png">
+                        </picture>
                     </div>
                     <div class="hero-float" >
                         <h1 class="hero-title lang" key="AboutWE" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">

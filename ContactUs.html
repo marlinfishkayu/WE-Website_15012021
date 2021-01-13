@@ -294,11 +294,11 @@
             <div id="ContactUs">
                 <div class="hero-header text-center">
                     <div class="hero-header-bkg">
-                        <img
-                            src="images/contact/hero_contact_x1.jpg"
-                            srcset="images/contact/hero_contact_x1.jpg 500w, images/contact/hero_contact_x2.jpg 1000w"
-                            alt=""
-                        />
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="./images/contact/hero_contact_x1.jpg">
+                            <source media="(max-width: 1023px)" srcset="./images/contact/hero_contact_x1.jpg 800w, ./images/contact/hero_contact_x2.jpg 1000w">
+                            <img src="./images/contact/hero_contact_x2.jpg">
+                        </picture>
                     </div>
                     <div class="hero-float">
                         <h1 class="hero-title lang" key="ContactUs" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
@@ -346,9 +346,6 @@
                                         <div class="col-12 col-md-6">
                                             <div class="form-group">
                                                 <div class="controls">
-                                                    <form>
-                                                        <input id="phone" name="phone" type="tel">
-                                                    </form>
                                                     <input type="text" id="PhoneNumber" class="form-control lang" key="Phone" placeholder="Phone number" required data-error="Phone is required." />
                                                     <div class="help-block with-errors"></div>
                                                 </div>
