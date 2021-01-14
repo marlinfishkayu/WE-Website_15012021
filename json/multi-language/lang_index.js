@@ -326,6 +326,8 @@ var arrImg = {
   'EN': [{
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
+      //Hero banner
+      'hero_1': './images/index/en/hero_1_x1.jpg',
       //live game
       'col_1': 'images/index/en/col1_expand-icon_x1.png 500w,images/index/en/col1_expand-icon_x2.png 1000w',
       'col_2': 'images/index/en/index_ourGames_col2_livegame_x1.jpg 500w,images/index/en/index_ourGames_col2_livegame_x2.jpg 1000w',
@@ -335,6 +337,8 @@ var arrImg = {
   'TC': [{
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
+      //Hero banner
+      'hero_1': './images/index/tc/hero_1_x1.jpg',
       //live game
       'col_1': 'images/index/tc/col1_expand-icon_x1.png 500w,images/index/tc/col1_expand-icon_x1.png 1000w',
       'col_2': 'images/index/tc/index_ourGames_col2_livegame_x1.jpg 500w,images/index/tc/index_ourGames_col2_livegame_x2.jpg 1000w',
@@ -344,6 +348,8 @@ var arrImg = {
   'SC': [{
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
+      //Hero banner
+      'hero_1': './images/index/sc/hero_1_x1.jpg',
       //live game
       'col_1': 'images/index/sc/col1_expand-icon_x1.png 500w,images/index/sc/col1_expand-icon_x1.png 1000w',
       'col_2': 'images/index/sc/index_ourGames_col2_livegame_x1.jpg 500w,images/index/sc/index_ourGames_col2_livegame_x2.jpg 1000w',

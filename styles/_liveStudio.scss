@@ -49,6 +49,15 @@
     position: absolute;
     top: 0;
     left: 0;
+    .studio-bottom-bkg-img{
+        width: 100%; 
+        background-position: 50% 10%; 
+        background-size: cover; 
+        height: 100%; 
+        object-fit: cover; 
+        -ms-interpolation-mode: bicubic; 
+        image-rendering: optimizeQuality;
+    }
 }
 #liveStudio .livestudio-sec3 .bottom-deco{
     width: 247px;

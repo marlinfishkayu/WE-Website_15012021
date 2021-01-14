@@ -1828,7 +1828,7 @@ footer {
 }
 
 #slider-area .slide {
-  height: 100vh;
+  height: 50vh;
 }
 
 #slider-area .slide img {
@@ -2481,7 +2481,7 @@ footer {
 
 @media (min-width: 576px) {
   #slider-area .slide {
-    height: 100vh;
+    height: 50vh;
   }
   #intdexWhatsNews .news-item {
     width: 600px;
@@ -2623,6 +2623,9 @@ footer {
 }
 
 @media (min-width: 992px) {
+  #slider-area .slide {
+    height: 100vh;
+  }
   #intdexWhatsNews .news-item-img {
     width: 358px;
     height: inherit;
@@ -5466,6 +5469,17 @@ select.form-control::-ms-expand {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#liveStudio .livestudio-sec3 .studio-bottom-bkg .studio-bottom-bkg-img {
+  width: 100%;
+  background-position: 50% 10%;
+  background-size: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: optimizeQuality;
 }
 
 #liveStudio .livestudio-sec3 .bottom-deco {

@@ -8,7 +8,7 @@
     background-position: 50% 50%;
 }
 #slider-area .slide {
-    height: 100vh;
+    height: 50vh;
     img{
         background-size: cover;
         -o-object-fit: cover;
@@ -555,7 +555,7 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     #slider-area .slide {
-        height: 100vh;
+        height: 50vh;
     }
     #intdexWhatsNews .news-item {
         width: 600px;
@@ -698,6 +698,9 @@
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    #slider-area .slide{
+        height: 100vh;
+    }
     #intdexWhatsNews .news-item-img {
         width: 358px;
         height: inherit;
